@@ -2,21 +2,24 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-header{
 
-    background-image: url('/images/donation13.jpg'),linear-gradient(180deg, rgba(18, 18, 18, 0.116) 0%, rgba(15, 15, 15,50) 100%);
-    background-size: 100% 100vh ;
+header {
+
+    background-image: url('/images/donation13.jpg'), linear-gradient(180deg, rgba(18, 18, 18, 0.116) 0%, rgba(15, 15, 15, 50) 100%);
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
     height: 800px;
     background-blend-mode: overlay;
- 
+
 }
-.banner{
+
+.banner {
     padding: 200px 307px;
     justify-content: center;
     text-align: center;
     margin-bottom: 175px;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 65px;
@@ -46,6 +49,77 @@ header{
     width: 160px;
     color: white;
     padding: 16px 12px;
+}
 
+/* donate today */
+.collect {
+    margin: 130px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #121212;
+}
+
+.section-des {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 375px 50px 375px;
+    /* or 156% */
+
+    text-align: center;
+
+    color: #707070;
+
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    gap:22px;
+}
+
+.price {
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 44px 23px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+    color: #707070;
+}
+
+.price:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.user-input{
+    margin: auto;
+    width: 50%;
+   text-align: center;
+    padding: 10px;
+}
+.input-text{
+    border: 0;
+    border-bottom: 1px solid red;
+    text-align: center;
+    padding: 5px ;
+    margin: 30px; 
     
+    font-size: 18px;
+    width: 765px;
+
+color: #B3B3B3;
 }

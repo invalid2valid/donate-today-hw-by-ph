@@ -6,7 +6,7 @@
 
 header {
 
-    background-image: url('/images/donation13.jpg'), linear-gradient(180deg, rgba(18, 18, 18, 0.116) 0%, rgba(15, 15, 15, 50) 100%);
+    background-image: url('images/donation13.jpg'), linear-gradient(180deg, rgba(18, 18, 18, 0.116) 0%, rgba(15, 15, 15, 50) 100%);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
     height: 800px;

@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Inter','Open Sans', sans-serif;
 }
 
 header {
@@ -209,4 +210,24 @@ padding-left: 30px;
     /* width: 160px; */
     color: white;
     padding: 16px 12px;
+}
+/* footer */
+footer{
+    background: #0B0D17;
+    padding: 45px ;
+    
+}
+.f-title{
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;  
+    color: #FF5959;
+    font-family: "Lobster";
+    text-align: center;
+}
+.f-des{
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    text-align: center;
 }
